@@ -1,0 +1,193 @@
+body{
+    background: url("math_home_img8.jpg") no-repeat center center fixed;
+    
+    color:#bb335c;
+    background-size: cover;
+    font-family: "Trebuchet MS";
+    font-size: 30px;
+}
+
+h1{
+    top: 15%;
+    left: 7%;
+    font-size: 100px;
+    font-weight: bold;
+   
+}
+
+.Container{
+   
+    position: absolute;
+}
+
+input[type="submit"]
+            {
+                font-family: "Courier New";
+                height: 70px;
+                width: 270px;
+                background-color: transparent;
+                border:2px solid #bb335c;
+                color:#bb335c;
+                font-size: 30px;
+                
+            }
+
+input[type="submit"]:hover
+            {
+                
+                background-color: #bb335c;
+                box-shadow: 0px 0px 16px white;
+                color:white;
+                font-size: 25px;
+                
+            }
+.btn {          font-family: "Courier New";
+                height: 70px;
+                width: 270px;
+                background-color: transparent;
+                border:2px solid #bb335c;
+                color:#bb335c;
+                font-size: 30px;
+              }
+              
+.btn:hover {
+                background-color: #bb335c;
+                box-shadow: 0px 0px 16px white;
+                color:white;
+                font-size: 25px;
+                font-weight: bold;
+              }
+
+.btn2 {         font-family: "Courier New";
+                height: 70px;
+                width: 270px;
+                background-color: transparent;
+                border:4px solid #090436;
+                color:#0c063d;
+                font-size: 30px;
+              }
+              
+.btn2:hover {
+                background-color: #0d0835;
+                box-shadow: 0px 0px 16px white;
+                color:white;
+                font-size: 25px;
+                font-weight: bold;
+              }
+
+#menu {
+                display: none;
+                height: 70px;
+                width: 270px;
+                
+              }
+
+.sums{         
+
+   
+    transform: translate(700px,-270px);
+    position: absolute;
+    
+            }  
+
+
+.scorebox{      
+                color:#0c063d;
+                transform: translate(700px,-270px);
+                position: absolute;
+                
+            }             
+
+
+.box1{      
+        
+                top: 30%;
+                transform: translate(300%,10%);
+                position: absolute;
+            }   
+
+#again{
+                display: none;
+              }
+            
+#rank{
+                display: none;
+              }
+            
+            
+#score {        color: #bb335c;;
+                text-shadow:
+                0 0 5px #fff,
+                0 0 10px #fff,
+                0 0 20px #fff,
+                0 0 40px #0ff,
+                0 0 80px #0ff,
+                0 0 90px #0ff,
+                0 0 100px #0ff,
+                0 0 150px #0ff;
+
+                font-size: 24px;
+                margin-bottom: 0;
+              }
+              
+#timer {        
+                color: #bb335c;;
+                text-shadow:
+                  0 0 5px #fff,
+                  0 0 10px #fff,
+                  0 0 20px #fff,
+                  0 0 40px #0ff,
+                  0 0 80px #0ff,
+                  0 0 90px #0ff,
+                  0 0 100px #0ff,
+                  0 0 150px #0ff;
+
+                font-size: 24px;
+                margin-top: 0;
+              }
+              
+#question {
+                display: none;
+                margin-left: 100px;
+              }
+              
+#op {
+                font-size: 32px;
+                color: white;
+                padding: 2px 2px 2px 2px;
+                background-color:transparent;
+              }
+              
+#answer {
+                display: none;
+                margin-top: 30px;
+                margin-left: 75px;
+              }
+              
+#input {
+                display: none;
+                margin-top: 30px;
+                margin-left: 62px;
+                height: 30px;
+                border: 2px solid;
+              }
+              
+#output {
+                display: none;
+                margin-left: 1px;
+              }
+              
+ #victory {
+                display: none;
+               
+                font-size: 50px;
+              }
+#score_display {
+                display: none;
+               
+                font-size: 50px;
+              }
+              
+#restart {
+                display: none;
+              }
